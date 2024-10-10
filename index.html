@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 
+<body>
 <!-- ***** About ***** -->
     <section class="about" id="about">
         <div class="row">
@@ -42,7 +43,18 @@
                 I believe that a user-centric application makes an effective application shine.
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+            <ul class="footer__social-links">
+                <li class="footer__social-link-item">
+                    <a href="https://github.com/AwJoey/" title="Link to Github Profile">
+                    <img src="./images/github.png" class="footer__social-image" alt="Github">
+                    </a>
+                </li>
+                <li class="footer__social-link-item">
+                    <a href="https://www.linkedin.com/in/joey-aw-304165186/">
+                    <img src="./images/linkedin.png" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
             </div>
 
             <div class="about__photo-container">
@@ -54,28 +66,28 @@
     </section>
     <!-- ***** Work ***** -->
 
+    
     <section class="work" id="work">
       <div class="row">
-        <h2>My Projects</h2>
+        <h1>I have done...</h1>  
+        <h2>Mobile Application Development</h2>
         <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
           <div class="work__box">
             <div class="work__text">
               <h3>Lepus - Social Application for Runners</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                An iOS application for runners to connect.
               </p>
               <ul class="work__list">
                 <li>Swift</li>
+                <li>XCode</li>
                 <li>Firebase</li>
                 <li>Figma</li>
               </ul>
 
               <div class="work__links">
                 <a href="https://youtu.be/V808ziWqaR4?feature=shared" target="_blank" class="link__text">
-                  Lepus Application Introduction <span>&rarr;</span>
+                  Lepus Application Introduction
                 </a>
                 <a href="https://github.com/tgonet/Hare" title="View Source Code" target="_blank">
                   <img src="./images/github.png" class="work__code" alt="GitHub">
@@ -83,46 +95,108 @@
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/lepusLogo.svg" class="work__image" alt="Project 1" />
+                <iframe src="https://www.youtube.com/watch?v=V808ziWqaR4" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <!-- <img src="./images/lepusLogo.svg" class="work__image" alt="Lepus Mobile Application" /> -->
             </div>
           </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Social.ly</h3>
+              <p>
+                Make new friends of similar interest and participate in activities!
+              </p>
+              <ul class="work__list">
+                <li>Android Studio</li>
+                <li>Java</li>
+                <li>Firebase</li>
+                <li>Figma</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/tgonet/Social.ly" title="View Source Code" target="_blank">
+                  <img src="./images/github.png" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/sociallyLogo.png" class="work__image" alt="Social.ly Mobile Application" />
+            </div>
+          </div>
+
+          <h2>User Experience Design</h2>
+          <div class="work__box">
+            <div class="work__text">
+              <h3>NUSEP</h3>
+              <p>
+                A platform to help NUS students with their overseas exchange journey.
+              </p>
+              <ul class="work__list">
+                <li>Balsamiq Wireframes (Low Fidelity)</li>
+                <li>Figma (High Fidelity)</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://www.figma.com/proto/nuRNI5Ex2DpHlN7u77Sr1B/High-Fidelity?type=design&node-id=86-7602&t=nvV4Gh66daVMgpqe-1&scaling=scale-down&page-id=1%3A5778&starting-point-node-id=86%3A7070&show-proto-sidebar=1" target="_blank" class="link__text">
+                    Prototype
+                  </a>
+                <div>&emsp;</div>
+                <a href="https://uxfol.io/p/2f5b10da/02359cef" target="_blank" class="link__text">
+                  More details
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/nusepLogo.svg" class="work__image" alt="NUSEP" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>SGRecycles</h3>
+              <p>
+                A platform to encourage households to recycle, reducing single-use plastics.
+              </p>
+              <ul class="work__list">
+                <li>Canva</li>
+                <li>Adobe XD</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://xd.adobe.com/view/620fbd1e-a09b-4f17-8cb0-d2a30ff69047-375c/" target="_blank" class="link__text">
+                    Prototype
+                  </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>AirAsia Kiosk Redesign</h3>
+              <p>
+                Reimagining an airline's kiosk to improve user experience.
+              </p>
+              <ul class="work__list">
+                <li>Adobe XD</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://xd.adobe.com/view/73ccd808-0374-4b52-81d8-12737135fd17-269f/" target="_blank" class="link__text">
+                    Prototype
+                  </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/airasiaLogo.png" class="work__image" alt="AirAsia Logo" />
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>My Socials</h2>
-        <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-            <a href="https://github.com/AwJoey/" title="Link to Github Profile">
-            <img src="./images/github.png" class="footer__social-image" alt="Github">
-            </a>
-        </li>
-        <li class="footer__social-link-item">
-            <a href="https://www.linkedin.com/in/joey-aw-304165186/">
-            <img src="./images/linkedin.png" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-            </a>
-        </li>
-        </ul>
-    </div>
   </section>
-</main>
-  <!-- ***** Footer ***** -->
-
-  <p>
-    <footer class="footer">
-    <div class="row">
-      <p>2024 Aw Joey.</p>
-    </div>
-  </p>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
 </body>
 
 </html>
