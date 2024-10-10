@@ -114,6 +114,7 @@ section {
 img {
     object-fit: contain;
     max-width: 100%;
+    min-width: 20%;
 }
 
 /* --------------------------------------- */
@@ -202,7 +203,12 @@ a {
 button:focus,
 a:focus {
     outline: 2px solid var(--blue);
-    color: wheat;
+    color: var(--white);
+}
+
+button:hover,
+a:hover {
+    color: var(--white);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -450,7 +456,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(min-width: 901px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 60%;
     }
     
     .about__photo-container {
