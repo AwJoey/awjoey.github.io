@@ -349,7 +349,7 @@ body:not(.user-is-tabbing) a:focus {
 .work__box {
     display: flex;
     align-items: center;
-    max-width: 50%;
+    /* max-width: 50%; */
 }
 
 @media(max-width: 900px) {
